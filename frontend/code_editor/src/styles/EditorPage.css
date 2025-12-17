@@ -1,0 +1,111 @@
+.editor-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+
+.navbar {
+  background-color: #1e1e2f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.user-name {
+  background: #333;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-right button,
+.file-label {
+  background: #2e2e3e;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-right button:hover,
+.file-label:hover {
+  background: #3b3b4d;
+}
+
+.file-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chat-icon {
+  margin-left: 10px;
+  background: #4a4a4a;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+}
+
+.chat-panel {
+  position: fixed;
+  right: 0;
+  top: 60px;
+  width: 300px;
+  height: calc(100% - 60px);
+  background: #1e1e1e;
+  color: white;
+  border-left: 2px solid #444;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+
+.chat-msg {
+  background: #2d2d2d;
+  padding: 6px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.chat-input-box {
+  display: flex;
+  gap: 5px;
+}
+
+.chat-input-box input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}

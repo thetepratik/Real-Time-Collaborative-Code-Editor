@@ -1,0 +1,88 @@
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.register-card {
+  width: 820px;
+  height: 460px;
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  background: #fff;
+}
+
+.register-panel,
+.register-form {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FORM */
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.register-form button {
+  margin-top: 15px;
+  padding: 12px 40px;
+  background: #0a74da;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* BLUE PANEL */
+.register-panel {
+  background: linear-gradient(135deg, #0a74da, #0d6efd);
+  color: #fff;
+  text-align: center;
+}
+
+.register-panel button {
+  margin-top: 20px;
+  padding: 12px 40px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border-radius: 6px;
+  border: 1px solid #3a8dde;
+  outline: none;
+  background: transparent;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #3a8dde;
+  display: flex;
+  align-items: center;
+}

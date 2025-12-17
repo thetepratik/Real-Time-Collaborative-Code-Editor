@@ -1,0 +1,39 @@
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #0f172a;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background: #1e293b;
+}
+
+.run-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.run-btn:hover {
+  background: #16a34a;
+}
+
+.editor-area {
+  display: flex;
+  flex: 1;
+}
+
+.output-frame {
+  width: 50%;
+  height: 80vh;
+  background: white;
+  border-left: 1px solid #333;
+}
